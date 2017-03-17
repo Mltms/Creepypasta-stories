@@ -4,138 +4,129 @@
     android:id="@+id/activity_5"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.toshiba.myapplication.kingspook"
-    android:background="@android:color/darker_gray"
-    android:orientation="vertical"
-    >
+    tools:context="com.example.toshiba.myapplication.kingspook">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Story player for KingSpook :"
-        android:textSize="28sp"
         android:paddingBottom="10dp"
-        />
-
-
+        android:text="Story list for KingSpook :"
+        android:textSize="28sp" />
 
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="I Was Recently Hired By A Staffing Agency "
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="30sp"
-        />
+        android:textSize="30sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingBottom="30dp"
-        >
+        android:paddingBottom="30dp">
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/play"
-            android:textSize="30dp"
             android:id="@+id/P1B1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:onClick="onClick"
+            android:text="@string/play"
+            android:textSize="30dp"
 
             />
+
         <View
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_weight="1" />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/pause"
-            android:textSize="30dp"
             android:id="@+id/P1B2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:onClick="onClick1"
-            />
+            android:text="@string/pause"
+            android:textSize="30dp" />
     </LinearLayout>
+
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="The Children Found A Flower "
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="30sp"
-        />
+        android:textSize="30sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingBottom="30dp"
-        >
+        android:paddingBottom="30dp">
 
         <Button
+            android:id="@+id/P1B3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="onClick2"
             android:text="@string/play"
             android:textSize="30dp"
-            android:id="@+id/P1B3"
-            android:onClick="onClick2"
 
             />
+
         <View
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_weight="1" />
 
         <Button
+            android:id="@+id/P1B4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/pause"
-            android:textSize="30dp"
-            android:id="@+id/P1B4"
             android:onClick="onClick3"
-            />
+            android:text="@string/pause"
+            android:textSize="30dp" />
     </LinearLayout>
 
     <TextView
-        android:text="It Gets Better "
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:textSize="30sp"
-        />
+        android:text="It Gets Better "
+        android:textSize="30sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
         <Button
+            android:id="@+id/P1B5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/play"
-            android:textSize="30dp"
-            android:id="@+id/P1B5"
             android:onClick="onClick4"
-            />
+            android:text="@string/play"
+            android:textSize="30dp" />
+
         <View
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_weight="1" />
 
         <Button
+            android:id="@+id/P1B6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="onClick5"
             android:text="@string/pause"
-            android:textSize="30dp"
-            android:id="@+id/P1B6"
-            android:onClick="onClick5"/>
+            android:textSize="30dp" />
     </LinearLayout>
-
 
 
 </LinearLayout>
