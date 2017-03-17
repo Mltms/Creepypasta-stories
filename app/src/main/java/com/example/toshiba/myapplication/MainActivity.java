@@ -31,46 +31,43 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent1 = new Intent(MainActivity.this, bebusta1.class);
                 startActivity(intent1);
-                                  }
-                              });
-                b2.setOnClickListener(new View.OnClickListener() {
+            }
+        });
+        b2.setOnClickListener(new View.OnClickListener() {
 
-                    public void onClick(View view) {
-                        Intent intent2 = new Intent(MainActivity.this, corpsehusbend.class);
-                        startActivity(intent2);
-                        }
-                    });
+            public void onClick(View view) {
+                Intent intent2 = new Intent(MainActivity.this, corpsehusbend.class);
+                startActivity(intent2);
+            }
+        });
 
-                    b3.setOnClickListener(new View.OnClickListener()
-                    {
+        b3.setOnClickListener(new View.OnClickListener() {
 
-                        public void onClick (View view){
-                            Intent intent3 = new Intent(MainActivity.this, creepsmcpasta.class);
-                            startActivity(intent3);
-                    }
-                    });
+            public void onClick(View view) {
+                Intent intent3 = new Intent(MainActivity.this, creepsmcpasta.class);
+                startActivity(intent3);
+            }
+        });
 
-                    b4.setOnClickListener(new View.OnClickListener()
-                    {
+        b4.setOnClickListener(new View.OnClickListener() {
 
-                        public void onClick (View view){
-                            Intent intent4 = new Intent(MainActivity.this, kingspook.class);
-                            startActivity(intent4);
-                    }
-                    });
+            public void onClick(View view) {
+                Intent intent4 = new Intent(MainActivity.this, kingspook.class);
+                startActivity(intent4);
+            }
+        });
 
-                    b5.setOnClickListener(new View.OnClickListener()
-                    {
+        b5.setOnClickListener(new View.OnClickListener() {
 
-                        public void onClick (View view){
-                            Intent intent5 = new Intent(MainActivity.this, lazymasquerade.class);
-                            startActivity(intent5);
-                        }
+            public void onClick(View view) {
+                Intent intent5 = new Intent(MainActivity.this, lazymasquerade.class);
+                startActivity(intent5);
+            }
 
-                    });
-                    }
+        });
+    }
 
 
-                }
+}
 
 

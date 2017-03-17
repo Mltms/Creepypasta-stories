@@ -41,18 +41,23 @@ public class bebusta1 extends AppCompatActivity {
         mediaPlayer.start();
 
     }
+
     public void onClick1(View v) {
         mediaPlayer.pause();
     }
+
     public void onClick2(View v) {
         mediaPlayer1.start();
     }
+
     public void onClick3(View v) {
         mediaPlayer1.pause();
     }
+
     public void onClick4(View v) {
         mediaPlayer2.start();
     }
+
     public void onClick5(View v) {
         mediaPlayer2.pause();
     }
