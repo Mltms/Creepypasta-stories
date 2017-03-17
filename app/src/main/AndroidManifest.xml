@@ -15,11 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity2" />
-        <activity android:name=".Activity3" />
-        <activity android:name=".Activity4" />
-        <activity android:name=".Activity5" />
-        <activity android:name=".Activity6"></activity>
+        <activity android:name=".bebusta1" />
+        <activity android:name=".corpsehusbend" />
+        <activity android:name=".creepsmcpasta" />
+        <activity android:name=".kingspook" />
+        <activity android:name=".lazymasquerade"></activity>
     </application>
 
 </manifest>
